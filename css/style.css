@@ -200,7 +200,7 @@ font-weight: bolder;
 .about{
        z-index: 3;
     position: absolute;
-    top: 865px;
+    top: 867px;
     background:url(../img/header3.jpg);
     left: 5%;
     background-size: cover;
@@ -240,7 +240,7 @@ font-weight: bolder;
 .burger{
     z-index: 5;
     position: absolute;
-    top: 1567px;
+    top: 1700px;
     left: 5%;
     background-size: cover;
     background-position: center !important;
