@@ -23,7 +23,7 @@ html{
 }
 body{
     
-    overflow-x: hidden;
+    
     font-family: 'Cairo', sans-serif;
 font-family: 'Lato', sans-serif;
 background: #000;
@@ -349,13 +349,10 @@ font-weight: bolder;
     padding: 5px 10px;
     margin: 1%;
 }
-.footer2{
-    background: #000;
-    color: #fff;
+footer {
     text-align: center;
-    z-index: 9;
-    margin: -40px;
-
+    color: #fff;
+    margin: -39px 20px;
 }
 
 
