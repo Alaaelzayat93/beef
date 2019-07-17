@@ -295,6 +295,7 @@ font-weight: bolder;
 .pagination {
   display: inline-block;
   z-index: 7;
+  margin: -38px 547px;
 }
 
 .pagination a {
@@ -316,6 +317,7 @@ font-weight: bolder;
      background: linear-gradient(#0009,#0009),url(../img/header2.jpg) no-repeat;
     background-position: center;
     height: 350px;
+    margin: 54px 99px;
 }
 .footer .row{
     margin: 40px 20px;
