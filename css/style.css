@@ -225,10 +225,17 @@ font-weight: bolder;
     color: #fff;
     margin-left: 10%;
 }
-@media and(max-width: 767px){
-    .about p{
-        width:70%;
+@media (max-width: 771px){
+    .about{
+        margin: 0 !important;
     }
+    .about p{
+        width:100%;
+    }
+    .about .head {
+    margin-top: 72px;
+
+}
 }
 .food{
     z-index: 4;
@@ -272,6 +279,18 @@ font-weight: bolder;
     color: #fff;
     margin-left: 10%;
 }
+@media (max-width: 771px){
+    .burger{
+        margin: 0 !important;
+    }
+    .burger p{
+        width:100%;
+    }
+    .burger .head {
+    margin-top: 72px;
+
+}
+}
 /***end burger*/
 /**start twix*/
 .twix{
@@ -295,7 +314,7 @@ font-weight: bolder;
 .pagination {
   display: inline-block;
   z-index: 7;
-  margin: -38px 547px;
+  margin: 24px 547px;
 }
 
 .pagination a {
