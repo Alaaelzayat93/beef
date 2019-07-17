@@ -149,7 +149,7 @@ position: relative;
 background-size: cover;
 background-position: center center;
 
-height: 500px !important;
+height: 95vh !important;
 z-index: 1;
 
 color: #fff;
@@ -329,6 +329,16 @@ font-weight: bolder;
     background: #555;
 
 }
+@media (max-width: 771px){
+    .pagination{
+     margin: 22px 112px!important;
+    }
+    .pagination a{
+            padding: 4px 14px;
+            float: none;
+
+    }
+}
 /**start footer**/
 .footer{
     z-index: 8;
@@ -336,7 +346,7 @@ font-weight: bolder;
      background: linear-gradient(#0009,#0009),url(../img/header2.jpg) no-repeat;
     background-position: center;
     height: 350px;
-    margin: 54px 99px;
+    margin: 16px 99px;
 }
 .footer .row{
     margin: 40px 20px;
@@ -367,6 +377,19 @@ font-weight: bolder;
     color: #fff;
     padding: 5px 10px;
     margin: 1%;
+}
+@media(max-width: 771px){
+    .footer{
+        height: auto;
+    }
+    .footer p {
+    color: #ddd;
+    font-size: 15px;
+    width: 66%;
+}
+.footer .tag button{
+    padding: 1px 2px;
+}
 }
 footer {
     text-align: center;
