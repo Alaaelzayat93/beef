@@ -374,13 +374,16 @@ font-weight: bolder;
 }
 .footer .tag button{
         background: #090908;
+
     color: #fff;
     padding: 5px 10px;
     margin: 1%;
+    display: inline-block;
 }
 @media(max-width: 771px){
     .footer{
         height: auto;
+        margin: 0;
     }
     .footer p {
     color: #ddd;
