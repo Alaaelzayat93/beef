@@ -200,7 +200,7 @@ font-weight: bolder;
 .about{
        z-index: 3;
     position: absolute;
-    top: 867px;
+    top: 920px;
     background:url(../img/header3.jpg);
     left: 5%;
     background-size: cover;
@@ -243,7 +243,7 @@ font-weight: bolder;
 .burger{
     z-index: 5;
     position: absolute;
-    top: 1603px;
+    top: 1653px;
     left: 5%;
     background-size: cover;
     background-position: center !important;
@@ -273,7 +273,7 @@ font-weight: bolder;
 .twix{
     z-index: 6;
     position: absolute;
-    top:1992px;
+    top:2013px;
     left:5%;
 }
 .twix img{
