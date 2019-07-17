@@ -169,9 +169,8 @@ color: #fff;
 /******start contant********/
 .content{
     z-index: 2;
-    position: absolute;
-    top: 78%;
-    left: 5%;
+    position: relative;
+    margin: -50px 51px;
 }
 .content .maintitle p{
     font-size: 19px;
@@ -202,10 +201,10 @@ font-weight: bolder;
 /**start about***/
 .about{
        z-index: 3;
-    position: absolute;
-    top: 920px;
+       
+           margin: 77px 104px;
+    
     background:url(../img/header3.jpg);
-    left: 5%;
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -226,11 +225,15 @@ font-weight: bolder;
     color: #fff;
     margin-left: 10%;
 }
+@media and(max-width: 767px){
+    .about p{
+        width:70%;
+    }
+}
 .food{
     z-index: 4;
-    position: absolute;
-        top: 1297px;
-    left: 5%;
+    
+
 }
 .food img{
     max-width: 100%;
@@ -245,14 +248,12 @@ font-weight: bolder;
 /*start burger*/
 .burger{
     z-index: 5;
-    position: absolute;
-    top: 1653px;
-    left: 5%;
     background-size: cover;
     background-position: center !important;
     background-repeat: no-repeat !important;
     color: #fff;
     background-image: url(../img/header3.jpg);
+    margin: 31px 103px;
 }
 .burger .head{
     margin: 20px;
@@ -275,9 +276,7 @@ font-weight: bolder;
 /**start twix*/
 .twix{
     z-index: 6;
-    position: absolute;
-    top:2013px;
-    left:5%;
+    
 }
 .twix img{
     max-width: 100%;
@@ -296,9 +295,6 @@ font-weight: bolder;
 .pagination {
   display: inline-block;
   z-index: 7;
-  position: absolute;
-  top:2450px;
-  left:40%;
 }
 
 .pagination a {
@@ -316,9 +312,6 @@ font-weight: bolder;
 /**start footer**/
 .footer{
     z-index: 8;
-    position: absolute;
-    top:2500px;
-    left:5%;
     color: #fff;
      background: linear-gradient(#0009,#0009),url(../img/header2.jpg) no-repeat;
     background-position: center;
