@@ -27,7 +27,7 @@ body{
     font-family: 'Cairo', sans-serif;
 font-family: 'Lato', sans-serif;
 background: #000;
-height: 4000px;
+
 }
 
 .scrolled{
@@ -145,7 +145,7 @@ height: 4000px;
 .header {
 
 position: relative;
-    background:url(../img/header2.jpg) no-repeat;
+    background:url(../img/header5.jpg) no-repeat;
 background-size: cover;
 background-position: center center;
 
@@ -156,12 +156,12 @@ color: #fff;
 }
 .header h1{
     font-size: 3em;
-    margin: 62px 34px;
+    margin: 82px 83px 62px 72px;
     width: 579px;
 }
 .header p{
-        margin-bottom: 3rem;
-    margin-left: 54px;
+    margin-bottom: 3rem;
+    margin-left: 68px;
     margin-top: -43px;
     font-size: 19px;
 }
@@ -266,7 +266,7 @@ font-weight: bolder;
 .twix{
     z-index: 6;
     position: absolute;
-    top:2000px;
+    top:1966px;
     left:5%;
 }
 .twix img{
@@ -295,11 +295,61 @@ font-weight: bolder;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
-  background: #ddd;
+  background: #fff;
   border:1px solid #000;
 }
 .pagination a:hover{
-    background: #fff;
+    background: #555;
 
 }
+/**start footer**/
+.footer{
+    z-index: 8;
+    position: absolute;
+    top:2500px;
+    left:5%;
+    color: #fff;
+     background: linear-gradient(#0009,#0009),url(../img/header2.jpg) no-repeat;
+    background-position: center;
+    height: 350px;
+}
+.footer .row{
+    margin: 40px 20px;
+}
+.footer .img{
+    float: left;
+    width: 20%;
+}
+.footer p{
+    color: #ddd;
+}
+.footer .img img{
+    width: 55px;
+    height: 40px;
+}
+.footer .lorem p{
+    font-size: 11px;
+}
+.footer .lorem{
+    float: left;
+    width: 70%
+}
+.footer .lorem h4{
+        font-size: 14px;
+}
+.footer .tag button{
+        background: #1f0c06;
+    color: #fff;
+    padding: 5px 10px;
+}
+.footer2{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    z-index: 9;
+    position: absolute;
+    top:2858px;
+    left:5%;
+}
+
 
