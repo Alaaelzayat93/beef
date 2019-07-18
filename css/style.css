@@ -23,7 +23,7 @@ html{
 }
 body{
     
-    
+    overflow-x: hidden;
     font-family: 'Cairo', sans-serif;
 font-family: 'Lato', sans-serif;
 background: #000;
@@ -98,7 +98,6 @@ background: #000;
 
 .active {
   display: block;
-  background: red;
 
 }
 
@@ -154,16 +153,21 @@ z-index: 1;
 
 color: #fff;
 }
+.header .beef-title{
+position: absolute;
+top:14%;
+}
 .header h1{
-    font-size: 3em;
-    margin: 82px 83px 62px 72px;
-    width: 579px;
+    font-size: 54px;
+        color: #de893a;
+        font-weight: bold;
+   
+    
 }
 .header p{
-    margin-bottom: 3rem;
-    margin-left: 68px;
-    margin-top: -43px;
+    
     font-size: 19px;
+    color:#ccc;
 }
 /***end header*****/
 /******start contant********/
@@ -225,7 +229,7 @@ font-weight: bolder;
     color: #fff;
     margin-left: 10%;
 }
-@media (max-width: 771px){
+@media(max-width: 768px),(max-width: 400px){
     .about{
         margin: 0 !important;
     }
@@ -250,6 +254,11 @@ font-weight: bolder;
 }
 .food .title .maintitle{
     margin: 20px;
+}
+@media all and (max-width: 559px){
+  .food p{
+    width: 40%;
+  }
 }
 /**end food*/
 /*start burger*/
@@ -283,6 +292,10 @@ font-weight: bolder;
     .burger{
         margin: 0 !important;
     }
+    .burger img{
+      max-width: 100%;
+    }
+  
     .burger p{
         width:100%;
     }
@@ -339,14 +352,20 @@ font-weight: bolder;
 
     }
 }
+@media (max-width: 992px){
+  .pagination{
+      margin: 15px 399px !important;
+}
+}
 /**start footer**/
 .footer{
     z-index: 8;
     color: #fff;
      background: linear-gradient(#0009,#0009),url(../img/header2.jpg) no-repeat;
     background-position: center;
-    height: 350px;
+    height: auto;
     margin: 16px 99px;
+    background-size: cover;
 }
 .footer .row{
     margin: 40px 20px;
@@ -372,13 +391,17 @@ font-weight: bolder;
 .footer .lorem h4{
         font-size: 14px;
 }
+.footer .tag{
+
+}
 .footer .tag button{
         background: #090908;
 
     color: #fff;
     padding: 5px 10px;
     margin: 1%;
-    display: inline-block;
+
+    
 }
 @media(max-width: 771px){
     .footer{
@@ -388,16 +411,23 @@ font-weight: bolder;
     .footer p {
     color: #ddd;
     font-size: 15px;
-    width: 66%;
+    width: 100%;
 }
 .footer .tag button{
     padding: 1px 2px;
+    margin: 0;
+}
+.footer .img{
+  float:none;
+}
+.footer .lorem{
+  float: none;
 }
 }
 footer {
     text-align: center;
     color: #fff;
-    margin: -39px 20px;
+    margin: -18px 20px;
 }
 
 
