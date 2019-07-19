@@ -265,8 +265,9 @@ font-weight: bolder;
     background-position: center !important;
     background-repeat: no-repeat !important;
     color: #fff;
-    background-image: url(../img/header3.jpg);
+    background-image: url(../img/header6.jpg);
     margin: 31px 103px;
+    height: 360px;
 }
 .burger .head{
     margin: 20px;
