@@ -1,3 +1,12 @@
+/*css variables*/
+:root{
+  --primary:#ddd;
+  --dark:#333;
+  --light:#fff;
+  --shadow:0 1px 5px rgba(104,104,104,0.8);
+}
+
+
 /*general*/
 
 *,*:after,*:before
@@ -145,7 +154,6 @@ position: relative;
 background-size: cover;
 background-position: center center;
 
-height: 95vh !important;
 z-index: 1;
 
 color: #fff;
@@ -166,6 +174,7 @@ top:14%;
     font-size: 19px;
     color:#ccc;
 }
+
 /***end header*****/
 /******start contant********/
 .content{
