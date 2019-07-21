@@ -19,6 +19,9 @@
     
 
 } 
+body{
+  overflow-x: hidden;
+}
 /* .owl-stage,.owl-item {
     width: 100% !important;
 } */
@@ -28,6 +31,7 @@
    
 }*/
 @media (min-width: 576px) {
+
   .container {
     max-width: 540px;
   }
@@ -384,6 +388,7 @@ font-weight: bolder;
 @media (max-width: 771px){
     .pagination{
      margin: 22px 112px!important;
+     display: inline;
     }
     .pagination a{
             padding: 4px 14px;
