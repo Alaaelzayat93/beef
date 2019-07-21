@@ -147,6 +147,9 @@ h2,h1{
     height: 50px;
     align-items: center;
   }
+  .logo{
+    margin: 0
+  }
 
   .main-nav {
     display: flex;
