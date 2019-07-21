@@ -101,7 +101,12 @@ h2,h1{
   color: #555;
   max-width: 100%;
 }
+@media(max-width: 771px){
+     .navbar {
+        margin-right: 10px;
+}
 
+}
 
 
 /*nav end*/
