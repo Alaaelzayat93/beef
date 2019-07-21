@@ -30,29 +30,38 @@
     <!--End If-->
   </head>
   <body>
-   <nav class="navbar">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fas fa-bars"></i>
-        </span>
-    <a href="#" class="logo">the Beef</a>
-    <ul class="main-nav" id="js-menu">
-      <li>
-        <a href="index.html" class="nav-links">Home</a>
-      </li>
-      <li>
-        <a href="services.html" class="nav-links">services</a>
-      </li>
-      <li>
-        <a href="about.html" class="nav-links">About Us</a>
-      </li>
-      <li>
-         <a href="works.html" class="nav-links">News</a>
-      </li>
-      <li>
-        <a href="#" class="nav-links">Contact us</a>
-      </li>
-    </ul>
-  </nav>
+   <!-----navbar------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Nav<span>bar</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 2</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
+            </li>
+        </ul>
+    </div>
+  </div>
+</nav>
   
 <!---header--->
 <div class="header">
