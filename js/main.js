@@ -31,16 +31,7 @@ function scrollFunction() {
   }
 }*/
 /*slider*/
- $(window).scroll(function(){
-var navbar = $('.navbar');
-if($(window).scrollTop() >= navbar.height()){
-if(!navbar.hasClass('scrolled')){
-navbar.addClass('scrolled fixed-top');
-} 
-}else{
-navbar.removeClass('scrolled navbar-fixed-top');
-}
-});
+ 
 
 
 

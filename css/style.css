@@ -59,7 +59,7 @@ html{
 }
 body{
     
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Cairo', sans-serif;
 font-family: 'Lato', sans-serif;
 background: #000;
