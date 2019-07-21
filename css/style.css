@@ -22,10 +22,33 @@
 /* .owl-stage,.owl-item {
     width: 100% !important;
 } */
-.container{
+/*.container{
     overflow: hidden;
     width:1200px;
    
+}*/
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }
 html{
     scroll-behavior: smooth;
