@@ -199,6 +199,9 @@ color: #fff;
    
     
 }
+.haeder .beef-title{
+  margin: 76px;
+}
 .header p{
     
     font-size: 19px;
@@ -297,9 +300,9 @@ font-weight: bolder;
 .food .title .maintitle{
     margin: 20px;
 }
-@media all and (max-width: 559px){
+@media(max-width: 771px){
   .food p{
-    width: 40%;
+    width: 100%;
   }
 }
 /**end food*/
