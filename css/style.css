@@ -19,9 +19,7 @@
     
 
 } 
-body{
-  overflow-x: hidden;
-}
+
 /* .owl-stage,.owl-item {
     width: 100% !important;
 } */
@@ -113,7 +111,7 @@ h2,h1{
 .header {
 
 position: relative;
-    background:url(../img/header5.jpg) no-repeat;
+       background: linear-gradient(#217e5d,rgba(187,145,47,0.23)),url(../img/header7.jpg) no-repeat;
 background-size: cover;
 background-position: center center;
 
@@ -339,7 +337,7 @@ font-weight: bolder;
 }
 @media (max-width: 992px){
   .pagination{
-      margin: 15px 399px !important;
+      display: inline;
 }
 }
 /**start footer**/
