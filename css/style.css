@@ -103,8 +103,12 @@ h2,h1{
   color: #fff;
   font-size: 24px;
 }
+.navbar .navbar-brand span{
+color:#c17209;
+}
 .navbar-light .navbar-nav .active>.nav-link{
   color: #fff;
+  background: #c17209;
 }
 .navbar-light .navbar-nav .nav-link{
   color:#fff;
@@ -136,6 +140,9 @@ color: #fff;
         font-weight: bold;
    
     
+}
+.header h1 span{
+  color: #c17209;
 }
 .haeder .beef-title{
   margin: 76px;
