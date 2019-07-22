@@ -129,7 +129,7 @@ color:#c17209;
 
 position: relative;
        background: linear-gradient(#217e5d52,rgba(187,145,47,0.23)),url(../img/header7.jpg) no-repeat;
-background-size: cover;
+background-size: 100% 100%;
 background-position: center center;
 
 z-index: 1;
@@ -155,7 +155,7 @@ color: #fff;
     font-size: 19px;
     color:#ccc;
 }
-@media (max-width: 771px){
+@media (max-width: 769px){
   .header h1{
     font-size: 54px;
     color: #fff;
@@ -171,10 +171,24 @@ color: #fff;
     font-weight: bold;
 }
   .header{
-    height: 300px;
+    height: 570px;
+    background-size:100% 100%;
   }
 }
 
+@media (min-width: 770px) and (max-width: 1199px){
+  .header{
+    height: 570px;
+    background-size:100% 100%;
+  }
+}
+
+@media (min-width:1200px){
+  .header{
+    height: 570px;
+    background-size:cover;
+  }
+}
 
 /***end header*****/
 /******start contant********/
