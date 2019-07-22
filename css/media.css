@@ -174,30 +174,35 @@
 	}
 }
 /*pagination*/
-@media (max-width: 771px){
+@media (min-width: 0)and(max-width: 771px){
     .pagination{
      display: inline;
-     margin:auto;
+     
+ 
     }
-    
+    .pagination a{
+            padding: 4px 14px;
+            float: none;
+
+    }
 }
 @media (min-width: 772px)and(max-width: 1200px){
   .pagination{
       display: inline;
-      margin: auto;
+      
   
 
 }
 }
 /**footer*/
-@media(max-width: 771px){
+@media(max-width: 1102px){
     .footer{
         height: auto;
         margin: 0;
     }
     .footer p {
     color: #ddd;
-    font-size: 14px;
+    font-size: 14px !important;
     width: 100%;
 }
 .footer .tag button{
@@ -210,4 +215,9 @@
 .footer .lorem{
   float: none;
 }
+}
+@media(min-width: 773px)and(max-width: 1200px){
+	.footer .footertitle p{
+		font-size: 12px !important;
+	}
 }
