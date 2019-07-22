@@ -92,12 +92,15 @@ h2,h1{
 
 .navbar {
   font-size: 18px;
-     background:#d66728;
+      background: linear-gradient(#217e5d52,rgba(187,145,47,0.23));
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 10px;
   z-index: 999999;
   color: #555;
   max-width: 100%;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: #fff;
 }
 @media(max-width: 771px){
      .navbar-light .navbar-toggler-icon {
@@ -111,7 +114,7 @@ h2,h1{
 .header {
 
 position: relative;
-       background: linear-gradient(#217e5d,rgba(187,145,47,0.23)),url(../img/header7.jpg) no-repeat;
+       background: linear-gradient(#217e5d52,rgba(187,145,47,0.23)),url(../img/header7.jpg) no-repeat;
 background-size: cover;
 background-position: center center;
 
